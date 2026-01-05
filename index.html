@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xbet Fast Cash | SriLanka Official Agent</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@400;600;700&display=swap');
+        
+        body { font-family: 'Inter', 'Noto Sans Sinhala', sans-serif; background-color: #020617; color: white; overflow-x: hidden; }
+        .glass-panel { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .modal { transition: opacity 0.3s ease; opacity: 0; pointer-events: none; z-index: 100; display: flex; align-items: center; justify-content: center; position: fixed; inset: 0; padding: 1rem; background: rgba(0,0,0,0.96); }
+        .modal.active { opacity: 1; pointer-events: auto; }
+        .whatsapp-float {
+            position: fixed; width: 60px; height: 60px; bottom: 20px; right: 20px;
+            background-color: #25d366; color: #FFF; border-radius: 50px;
+            display: flex; align-items: center; justify-content: center;
+            box-shadow: 0px 5px 15px rgba(37, 211, 102, 0.4); z-index: 90;
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce { 0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 40% {transform: translateY(-10px);} 60% {transform: translateY(-5px);} }
+        .animate-fade-in { animation: fadeIn 0.5s ease forwards; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .btn-close { font-size: 10px; opacity: 0.7; }
+    </style>
+</head>
+<body class="pb-24">
+
+    <a href="https://wa.me/94776763093" target="_blank" class="whatsapp-float">
+        <i data-lucide="message-circle" class="w-8 h-8"></i>
+    </a>
+
+    <div class="max-w-md mx-auto px-4 pt-6 flex justify-between items-center relative">
+        <button onclick="toggleLanguage()" class="glass-panel px-3 py-1.5 rounded-full text-[10px] font-bold tracking-widest hover:bg-white/10 transition-colors flex items-center gap-1 z-50">
+            <i data-lucide="globe" class="w-3 h-3"></i> <span id="lang-display">🇱🇰 | 🇬🇧</span>
+        </button>
+        <div class="flex items-center gap-2 bg-green-500/10 px-3 py-1 rounded-full border border-green-500/20">
+            <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+            <span class="text-[10px] font-bold text-green-500 uppercase" data-translate="online_status">සජීවී 24/7</span>
+        </div>
+    </div>
+    
+    <div class="max-w-md mx-auto px-4 pt-2 text-right">
+        <div class="text-[10px] font-bold text-slate-400 uppercase tracking-widest italic" data-translate="agent_title">ශ්‍රී ලංකා නිල නියෝජිත</div>
+    </div>
+
+    <header class="pt-6 px-4 text-center">
+        <div class="glass-panel rounded-3xl p-6 mx-auto max-w-sm border-blue-500/20 shadow-xl">
+            <h1 class="text-2xl font-black italic text-white mb-1 tracking-tighter uppercase">Xbet Fast Cash</h1>
+            <div class="grid grid-cols-2 gap-4 border-t border-white/10 pt-4 mt-2">
+                <div><p class="text-[9px] text-slate-500 uppercase" data-translate="users">පරිශීලකයින්</p><p class="text-xl font-bold text-blue-400">5420+</p></div>
+                <div><p class="text-[9px] text-slate-500 uppercase" data-translate="transactions">ගනුදෙනු</p><p class="text-xl font-bold text-green-400">14200+</p></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-md mx-auto px-4 mt-6 space-y-4">
+        
+        <div class="grid grid-cols-2 gap-3">
+            <button onclick="openModal('modal-withdraw')" class="glass-panel p-4 rounded-2xl border-red-500/20 flex flex-col items-center gap-2 text-red-500 font-bold text-[10px] uppercase hover:bg-red-500/10 transition-colors">
+                <i data-lucide="wallet" class="w-6 h-6"></i> <span data-translate="btn_withdraw">මුදල් ගැනීම</span>
+            </button>
+            <button onclick="openModal('modal-bank')" class="glass-panel p-4 rounded-2xl border-blue-500/20 flex flex-col items-center gap-2 text-blue-400 font-bold text-[10px] uppercase hover:bg-blue-500/10 transition-colors">
+                <i data-lucide="landmark" class="w-6 h-6"></i> <span data-translate="btn_bank">බැංකු විස්තර</span>
+            </button>
+        </div>
+
+        <button onclick="openModal('modal-deposit')" class="w-full glass-panel p-5 rounded-2xl border-green-500/40 text-green-400 font-bold flex justify-center gap-3 hover:bg-green-500/10 transition-all shadow-lg shadow-green-900/10">
+            <i data-lucide="plus-circle"></i> <span data-translate="btn_deposit">මුදල් තැන්පතු</span>
+        </button>
+
+        <div class="glass-panel rounded-2xl p-5 border-blue-500/30 bg-gradient-to-br from-blue-900/20 to-transparent">
+            <h3 class="text-[11px] font-bold text-blue-400 uppercase mb-4 text-center tracking-tighter italic" data-translate="reg_title">--- 1XBET නව ගිණුම් ආරම්භය සඳහා ---</h3>
+            <div class="flex justify-between items-center bg-slate-950/50 p-3 rounded-xl border border-white/5 mb-4">
+                <div>
+                    <p class="text-[9px] text-slate-500 uppercase font-bold">Promo Code</p>
+                    <p class="text-xl font-mono font-bold text-yellow-400">VGSL</p>
+                </div>
+                <button onclick="copyPromo()" class="bg-blue-500/20 p-2 rounded-lg text-blue-400 hover:bg-blue-500/30">
+                    <i data-lucide="copy" class="w-5 h-5"></i>
+                </button>
+            </div>
+            <a href="https://refpa58144.com/L?tag=d_3634819m_1236c_Facebook_Group1&site=3634819&ad=1236" target="_blank" class="block w-full bg-blue-600 hover:bg-blue-500 text-center font-bold py-4 rounded-xl transition-all shadow-lg shadow-blue-600/30 uppercase text-[10px] tracking-widest" data-translate="reg_btn">දැන්ම ලියාපදිංචි වන්න</a>
+        </div>
+
+        <div class="glass-panel rounded-2xl p-5 border-white/5">
+            <h3 class="font-bold text-[10px] text-slate-500 uppercase tracking-widest flex items-center gap-2 mb-4">
+                <span class="w-2 h-2 bg-red-500 rounded-full animate-ping"></span> <span data-translate="live_title">සජීවී ගනුදෙනු</span>
+            </h3>
+            <div id="activity-list" class="space-y-1"></div>
+        </div>
+
+        <!-- FAQ Accordion Section -->
+        <div class="glass-panel rounded-2xl p-5 border-slate-700">
+            <h3 class="font-bold text-[12px] text-yellow-400 uppercase mb-4 text-center tracking-wider" data-translate="faq_title">නිතර අසන ප්‍රශ්න</h3>
+            <div id="faq-accordion" class="space-y-3 text-[10px]">
+                <!-- FAQ 1 -->
+                <div class="border border-slate-800/50 rounded-xl overflow-hidden">
+                    <button onclick="toggleFaq(0)" class="faq-question w-full text-left p-3 bg-slate-900/30 hover:bg-slate-800/30 transition-colors font-bold text-slate-300 flex justify-between items-center">
+                        <span data-translate="faq_q1">මුදල් තැන්පත් කිරීමට අවම මුදල කුමක්ද?</span>
+                        <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 transition-transform"></i>
+                    </button>
+                    <div id="faq-0" class="faq-answer hidden p-3 bg-slate-950/50 text-slate-500 border-t border-slate-800/30">
+                        <p data-translate="faq_a1">අවම මුදල රු. 250 වේ. ඊට අඩු මුදලක් තැන්පත් කළ නොහැක.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="border border-slate-800/50 rounded-xl overflow-hidden">
+                    <button onclick="toggleFaq(1)" class="faq-question w-full text-left p-3 bg-slate-900/30 hover:bg-slate-800/30 transition-colors font-bold text-slate-300 flex justify-between items-center">
+                        <span data-translate="faq_q2">මුදල් ගැනීම සඳහා කොපමණ කාලයක් ගතවේ?</span>
+                        <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 transition-transform"></i>
+                    </button>
+                    <div id="faq-1" class="faq-answer hidden p-3 bg-slate-950/50 text-slate-500 border-t border-slate-800/30">
+                        <p data-translate="faq_a2">අනුමත කිරීමෙන් පසු 5 සිට 15 මිනිත්තු ඇතුළත මුදල් ලැබේ.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="border border-slate-800/50 rounded-xl overflow-hidden">
+                    <button onclick="toggleFaq(2)" class="faq-question w-full text-left p-3 bg-slate-900/30 hover:bg-slate-800/30 transition-colors font-bold text-slate-300 flex justify-between items-center">
+                        <span data-translate="faq_q3">මගේ 1xBet ID එක නොමැති නම් කුමක් කළ යුතුද?</span>
+                        <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 transition-transform"></i>
+                    </button>
+                    <div id="faq-2" class="faq-answer hidden p-3 bg-slate-950/50 text-slate-500 border-t border-slate-800/30">
+                        <p data-translate="faq_a3">Promo Code: <span class="font-bold text-yellow-400">VGSL</span> සමඟ <a href="https://refpa58144.com/L?tag=d_3634819m_1236c_Facebook_Group1&site=3634819&ad=1236" target="_blank" class="underline text-blue-400">ලියාපදිංචි වන්න</a>.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="border border-slate-800/50 rounded-xl overflow-hidden">
+                    <button onclick="toggleFaq(3)" class="faq-question w-full text-left p-3 bg-slate-900/30 hover:bg-slate-800/30 transition-colors font-bold text-slate-300 flex justify-between items-center">
+                        <span data-translate="faq_q4">රිසිට්පතක් නැති නම් මුදල් තැන්පත් කළ හැකිද?</span>
+                        <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 transition-transform"></i>
+                    </button>
+                    <div id="faq-3" class="faq-answer hidden p-3 bg-slate-950/50 text-slate-500 border-t border-slate-800/30">
+                        <p data-translate="faq_a4">නැත. රිසිට්පතේ Screenshot එකක් අත්‍යවශ්‍ය වේ.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="border border-slate-800/50 rounded-xl overflow-hidden">
+                    <button onclick="toggleFaq(4)" class="faq-question w-full text-left p-3 bg-slate-900/30 hover:bg-slate-800/30 transition-colors font-bold text-slate-300 flex justify-between items-center">
+                        <span data-translate="faq_q5">සේවාව කවදා ලබා ගත හැකිද?</span>
+                        <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 transition-transform"></i>
+                    </button>
+                    <div id="faq-4" class="faq-answer hidden p-3 bg-slate-950/50 text-slate-500 border-t border-slate-800/30">
+                        <p data-translate="faq_a5">24/7 – දිනපතා, රාත්‍රියේ, දෙවන දින පවා!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Privacy, Legal & Service Info -->
+    <div class="max-w-md mx-auto px-4 mt-8 text-center">
+        <p class="text-[9px] text-slate-500 italic" data-translate="privacy_notice">
+            ඔබ යොමු කරන සියලු තොරතුරු රහස්‍යව සකසා ඇත. අපි ඒවා තෙවන පාර්ශවයන් සමඟ බෙදා නොගනිමු.
+        </p>
+        <p class="text-[9px] text-slate-600 mt-1" data-translate="legal_notice">
+            ⚠️ 1xBet ශ්‍රී ලංකාවේ නීති විරෝධී විය හැක. භාවිතය ඔබගේ අවදානම යටතේ සිදු කරන්න.
+        </p>
+        <p class="text-[9px] text-slate-600 mt-2" data-translate="service_hours">
+            🕒 සේවා වේලාව: 24/7 | 📞 උදව් සඳහා: 077 676 3093
+        </p>
+    </div>
+
+    <!-- Bank Modal -->
+    <div id="modal-bank" class="modal">
+        <div class="glass-panel w-full max-w-sm rounded-3xl p-6 bg-slate-950 border-blue-500/30 overflow-y-auto max-h-[85vh]">
+            <div class="flex justify-between items-center mb-6 text-blue-400 font-bold italic uppercase">
+                <h3 data-translate="modal_bank_title">බැංකු විස්තර</h3>
+                <button onclick="closeModal('modal-bank')" class="btn-close">Close</button>
+            </div>
+            <div class="space-y-3">
+                <div class="p-4 bg-white/5 rounded-2xl border border-white/10 flex justify-between items-center">
+                    <div><p class="text-[9px] text-blue-400 font-bold uppercase">1. LOLC Bank (Kaluthara)</p><p class="font-bold text-yellow-400 text-lg">01210012722</p><p class="text-[9px] text-slate-400">VGS LAKMAL</p></div>
+                    <button onclick="copyText('01210012722')" class="p-2 text-blue-400"><i data-lucide="copy" class="w-4 h-4"></i></button>
+                </div>
+                <div class="p-4 bg-white/5 rounded-2xl border border-white/10 flex justify-between items-center">
+                    <div><p class="text-[9px] text-blue-400 font-bold uppercase">2. Peoples Bank (Walasmulla)</p><p class="font-bold text-yellow-400 text-lg">120200380030196</p><p class="text-[9px] text-slate-400">VGS LAKMAL</p></div>
+                    <button onclick="copyText('120200380030196')" class="p-2 text-blue-400"><i data-lucide="copy" class="w-4 h-4"></i></button>
+                </div>
+                <div class="p-4 bg-white/5 rounded-2xl border border-white/10 flex justify-between items-center">
+                    <div><p class="text-[9px] text-blue-400 font-bold uppercase">3. Sampath Bank (Neluwa)</p><p class="font-bold text-yellow-400 text-lg">105456146706</p><p class="text-[9px] text-slate-400">NKS OSHADHI</p></div>
+                    <button onclick="copyText('105456146706')" class="p-2 text-blue-400"><i data-lucide="copy" class="w-4 h-4"></i></button>
+                </div>
+                <div class="p-4 bg-white/5 rounded-2xl border border-white/10 flex justify-between items-center">
+                    <div><p class="text-[9px] text-blue-400 font-bold uppercase">4. BOC Bank (Walasmulla)</p><p class="font-bold text-yellow-400 text-lg">95645895</p><p class="text-[9px] text-slate-400">VGS LAKMAL</p></div>
+                    <button onclick="copyText('95645895')" class="p-2 text-blue-400"><i data-lucide="copy" class="w-4 h-4"></i></button>
+                </div>
+                <div class="p-4 bg-blue-600/10 rounded-2xl border border-blue-500/20">
+                    <p class="text-[10px] font-bold text-blue-400 uppercase mb-3 flex items-center gap-2"><i data-lucide="smartphone" class="w-3 h-3"></i> iPay Numbers</p>
+                    <div class="flex justify-between items-center mb-2 pb-2 border-b border-white/5 text-xs">
+                        <span>074 0452530 (Lakmal)</span>
+                        <button onclick="copyText('0740452530')" class="p-1.5 text-blue-400 bg-white/5 rounded-lg"><i data-lucide="copy" class="w-3 h-3"></i></button>
+                    </div>
+                    <div class="flex justify-between items-center text-xs">
+                        <span>070 3346455 (Mahesh)</span>
+                        <button onclick="copyText('0703346455')" class="p-1.5 text-blue-400 bg-white/5 rounded-lg"><i data-lucide="copy" class="w-3 h-3"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Deposit Modal -->
+    <div id="modal-deposit" class="modal">
+        <div class="glass-panel w-full max-w-sm rounded-3xl p-6 bg-slate-950 border-green-500/30 overflow-y-auto max-h-[90vh]">
+            <div class="flex justify-between items-center mb-4 text-green-500 font-bold text-xl uppercase italic">
+                <h3 data-translate="modal_dep_title">මුදල් තැන්පතු</h3>
+                <button onclick="closeModal('modal-deposit')" class="btn-close">Close</button>
+            </div>
+            <div class="mb-4 space-y-2 bg-green-500/5 p-3 rounded-xl border border-green-500/10 text-[10px] text-slate-300">
+                <p>1. බැංකු විස්තර වල සදහන් ගිණුම් අංකයක් කොපි කර ගන්න </p>
+                <p>2. Remark සදහා 1xbet id සදහන් කර මුදල් තැන්පත් කරන්න.</p>
+                <p>3. රිසිට්පතේ Screenshot එකක් ලබාගන්න.</p>
+                <p>4. පහතින් ඔබගේ ID සහ මුදල ඇතුළත් කරන්න.</p>
+                <p>5. රිසිට්පත අමුණා WhatsApp කරන්න.</p>
+            </div>
+            <div class="space-y-4">
+                <input type="text" id="dep-id" placeholder="1xbet ID" class="w-full bg-white/5 border border-white/10 rounded-xl p-4 outline-none text-sm">
+                <input type="number" id="dep-amount" placeholder="Amount (Rs. 250+)" class="w-full bg-white/5 border border-white/10 rounded-xl p-4 outline-none text-sm">
+                <label class="flex flex-col items-center justify-center gap-2 w-full py-6 border-2 border-dashed border-white/10 rounded-xl cursor-pointer">
+                    <i data-lucide="image-up" class="w-8 h-8 text-slate-500"></i>
+                    <span id="file-label" class="text-[10px] text-slate-400 font-bold uppercase">රිසිට්පත අමුණන්න</span>
+                    <input type="file" id="receipt-upload" accept="image/*" class="hidden" onchange="previewImage(this)">
+                </label>
+                <div id="image-preview-container" class="hidden relative"><img id="image-preview" src="#" class="w-full h-32 object-cover rounded-xl border border-green-500/50"></div>
+                <button onclick="sendToWhatsApp('deposit')" class="w-full py-4 bg-green-600 rounded-2xl font-bold uppercase text-[10px] tracking-widest shadow-lg shadow-green-900/40" data-translate="submit_wa">WhatsApp වෙත යොමු කරන්න</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Withdraw Modal -->
+    <div id="modal-withdraw" class="modal">
+        <div class="glass-panel w-full max-w-sm rounded-3xl p-6 bg-slate-950 border-red-500/30 overflow-y-auto max-h-[90vh]">
+            <div class="flex justify-between items-center mb-4 text-red-500 font-bold text-xl uppercase italic">
+                <h3 data-translate="modal_wit_title">මුදල් ගැනීම</h3>
+                <button onclick="closeModal('modal-withdraw')" class="btn-close">Close</button>
+            </div>
+            <div class="mb-4 space-y-2 bg-red-500/5 p-3 rounded-xl border border-red-500/10 text-[10px] text-slate-300">
+                <p>1. <span class="text-red-400 font-bold">1xBet Cash</span> තෝරන්න.</p>
+                <p>2. City: <span class="font-bold">Walasmulla</span> | Street: <span class="font-bold">Beliatta Road 24/7</span></p>
+                <p>3. Approved වූ පසු <span class="text-yellow-400 font-bold">Get Code</span> ඔබා කේතය ලබාගන්න.</p>
+                <p>4. 1xbet id, Amount, Security Code එක ඇතුලත් කර submit කරන්න.</p>
+                <p>5. පසුව බැංකු විස්තර whatsapp හරහා අප වෙත එවන්න.</p>
+            </div>
+            <div class="space-y-3">
+                <input type="text" id="wit-id" placeholder="1xbet ID" class="w-full bg-white/5 border border-white/10 rounded-xl p-4 outline-none text-sm">
+                <input type="number" id="wit-amount" placeholder="Amount (Rs. 250+)" class="w-full bg-white/5 border border-white/10 rounded-xl p-4 outline-none text-sm">
+                <input type="password" id="wit-security" placeholder="SECURITY CODE" class="w-full bg-red-500/10 border border-red-500/20 rounded-xl p-4 outline-none text-red-400 font-mono text-center text-lg tracking-[5px]">
+                <button onclick="sendToWhatsApp('withdraw')" class="w-full py-4 bg-red-600 rounded-2xl font-bold uppercase text-[10px] tracking-widest" data-translate="submit_req">ඉල්ලීම යොමු කරන්න</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+
+        // Auto-detect language
+                let currentLang = navigator.language.startsWith('si') ? 'si' : 'en';
+        const WHATSAPP_NUMBER = "94776763093";
+
+        const trans = {
+            online_status: { en: "ONLINE 24/7", si: "සජීවී 24/7" },
+            agent_title: { en: "SriLanka Official Agent", si: "ශ්‍රී ලංකා නිල නියෝජිත" },
+            btn_withdraw: { en: "Withdrawal", si: "මුදල් ගැනීම" },
+            btn_bank: { en: "Bank Details", si: "බැංකු විස්තර" },
+            btn_deposit: { en: "SUBMIT DEPOSIT", si: "මුදල් තැන්පතු" },
+            live_title: { en: "LIVE ACTIVITY", si: "සජීවී ගනුදෙනු" },
+            submit_req: { en: "Submit Request", si: "ඉල්ලීම යොමු කරන්න" },
+            reg_title: { en: "--- NEW 1XBET ACCOUNT REGISTRATION ---", si: "--- 1XBET නව ගිණුම් ආරම්භය සඳහා ---" },
+            reg_btn: { en: "Register Now", si: "දැන්ම ලියාපදිංචි වන්න" },
+            modal_bank_title: { en: "Bank Details", si: "බැංකු විස්තර" },
+            modal_dep_title: { en: "Deposit Funds", si: "මුදල් තැන්පතු" },
+            modal_wit_title: { en: "Withdraw Funds", si: "මුදල් ගැනීම" },
+            submit_wa: { en: "Send via WhatsApp", si: "WhatsApp වෙත යොමු කරන්න" },
+            privacy_notice: { 
+                en: "All information you submit is handled confidentially. We do not share it with third parties.", 
+                si: "ඔබ යොමු කරන සියලු තොරතුරු රහස්‍යව සකසා ඇත. අපි ඒවා තෙවන පාර්ශවයන් සමඟ බෙදා නොගනිමු." 
+            },
+            legal_notice: {
+                en: "⚠️ 1xBet may be illegal in Sri Lanka. Use at your own risk.",
+                si: "⚠️ 1xBet ශ්‍රී ලංකාවේ නීති විරෝධී විය හැක. භාවිතය ඔබගේ අවදානම යටතේ සිදු කරන්න."
+            },
+            service_hours: { 
+                en: "🕒 Service Hours: 24/7 | 📞 Support: 077 676 3093", 
+                si: "🕒 සේවා වේලාව: 24/7 | 📞 උදව් සඳහා: 077 676 3093" 
+            },
+            // FAQ
+            faq_title: { en: "FREQUENTLY ASKED QUESTIONS", si: "නිතර අසන ප්‍රශ්න" },
+            faq_q1: { en: "What is the minimum deposit amount?", si: "මුදල් තැන්පත් කිරීමට අවම මුදල කුමක්ද?" },
+            faq_a1: { en: "Minimum deposit is Rs. 250. Lower amounts are not accepted.", si: "අවම මුදල රු. 250 වේ. ඊට අඩු මුදලක් තැන්පත් කළ නොහැක." },
+            faq_q2: { en: "How long does withdrawal take?", si: "මුදල් ගැනීම සඳහා කොපමණ කාලයක් ගතවේ?" },
+            faq_a2: { en: "Funds arrive within 5–15 minutes after approval.", si: "අනුමත කිරීමෙන් පසු 5 සිට 15 මිනිත්තු ඇතුළත මුදල් ලැබේ." },
+            faq_q3: { en: "What if I don’t have a 1xBet ID?", si: "මගේ 1xBet ID එක නොමැති නම් කුමක් කළ යුතුද?" },
+            faq_a3: { en: "Register using Promo Code: VGSL", si: "Promo Code: VGSL සමඟ ලියාපදිංචි වන්න." },
+            faq_q4: { en: "Can I deposit without a receipt?", si: "රිසිට්පතක් නැති නම් මුදල් තැන්පත් කළ හැකිද?" },
+            faq_a4: { en: "No. A screenshot of your receipt is mandatory.", si: "නැත. රිසිට්පතේ Screenshot එකක් අත්‍යවශ්‍ය වේ." },
+            faq_q5: { en: "When is the service available?", si: "සේවාව කවදා ලබා ගත හැකිද?" },
+            faq_a5: { en: "24/7 – Every day, night, and holiday!", si: "24/7 – දිනපතා, රාත්‍රියේ, දෙවන දින පවා!" }
+        };
+
+        function toggleLanguage() {
+            currentLang = currentLang === 'en' ? 'si' : 'en';
+            updateTranslations();
+            document.getElementById('lang-display').textContent = currentLang === 'en' ? '🇱🇰 | 🇬🇧' : '🇬🇧 | 🇱🇰';
+        }
+
+        function updateTranslations() {
+            document.querySelectorAll('[data-translate]').forEach(el => {
+                const key = el.getAttribute('data-translate');
+                if (trans[key]) el.textContent = trans[key][currentLang];
+            });
+        }
+
+        updateTranslations();
+
+        // Auto-fill from localStorage
+        function autofillId() {
+            const savedId = localStorage.getItem('xbetId');
+            if (savedId) {
+                document.getElementById('dep-id').value = savedId;
+                document.getElementById('wit-id').value = savedId;
+            }
+        }
+
+        function openModal(id) { 
+            document.getElementById(id).classList.add('active'); 
+            autofillId();
+        }
+        function closeModal(id) { document.getElementById(id).classList.remove('active'); }
+
+        function copyText(text) { 
+            navigator.clipboard.writeText(text).then(() => alert("Copied!"));
+        }
+
+        function copyPromo() {
+            copyText('VGSL');
+        }
+
+        function previewImage(input) {
+            const file = input.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = e => {
+                    document.getElementById('image-preview').src = e.target.result;
+                    document.getElementById('image-preview-container').classList.remove('hidden');
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+
+        function sendToWhatsApp(type) {
+            let id = document.getElementById(type==='deposit'?'dep-id':'wit-id').value;
+            let amt = parseFloat(document.getElementById(type==='deposit'?'dep-amount':'wit-amount').value);
+
+            if (!id || !amt) {
+                alert("සියලු ක්ෂේත්‍ර පුරවන්න!");
+                return;
+            }
+            if (amt < 250) {
+                alert("අවම මුදල Rs. 250 විය යුතුය!");
+                return;
+            }
+
+            let msg = type === 'deposit' 
+                ? `*DEPOSIT REQUEST*%0AID: ${id}%0AAmt: Rs. ${amt}` 
+                : `*WITHDRAWAL REQUEST*%0AID: ${id}%0AAmt: Rs. ${amt}%0ACode: ${document.getElementById('wit-security').value}`;
+            
+            // ✅ Fixed: Removed space after 'wa.me/'
+            window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`, '_blank');
+            
+            // Save ID
+            localStorage.setItem('xbetId', id);
+            
+            alert("ඔබේ ඉල්ලීම WhatsApp වෙත යැවී ඇත!");
+            closeModal(`modal-${type}`);
+        }
+
+        // LIVE ACTIVITY with last 3 digits
+        function generateFakeId() {
+            const length = Math.floor(Math.random() * 5) + 5;
+            let id = '';
+            for (let i = 0; i < length; i++) {
+                id += Math.floor(Math.random() * 10);
+            }
+            return id;
+        }
+
+        const names = ["Nuwan", "Amila", "Sajith", "Priyanka", "Kasun", "Ruwan", "Dilshan", "Nimal"];
+        
+        function addActivity() {
+            const type = Math.random() > 0.4 ? 'Deposit' : 'Withdrawal';
+            const name = names[Math.floor(Math.random() * names.length)];
+            const fakeId = generateFakeId();
+            const lastThree = fakeId.slice(-3);
+            const amount = (Math.floor(Math.random() * 50) + 5) * 100;
+
+            const html = `
+                <div class="flex justify-between items-center py-2 border-b border-white/5 animate-fade-in">
+                    <span class="text-[10px] text-slate-300">${name}...${lastThree}</span>
+                    <span class="text-[10px] font-bold ${type === 'Deposit' ? 'text-green-400' : 'text-red-400'}">
+                        ${type} LKR ${amount}
+                    </span>
+                </div>
+            `;
+            const list = document.getElementById('activity-list');
+            list.insertAdjacentHTML('afterbegin', html);
+            if (list.children.length > 5) list.lastElementChild?.remove();
+        }
+
+        for (let i = 0; i < 5; i++) addActivity();
+        setInterval(addActivity, 180000);
+
+        // Accordion Toggle
+        function toggleFaq(index) {
+            const answer = document.getElementById(`faq-${index}`);
+            const icon = answer.previousElementSibling.querySelector('i');
+            
+            if (answer.classList.contains('hidden')) {
+                document.querySelectorAll('.faq-answer').forEach(el => {
+                    el.classList.add('hidden');
+                    const i = el.previousElementSibling.querySelector('i');
+                    if (i) i.style.transform = 'rotate(0deg)';
+                });
+                answer.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                answer.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        window.addEventListener('offline', () => {
+            alert("ඔබ අන්තර්ජාලයට සම්බන්ධ නොවේ! කරුණාකර නැවත සම්බන්ධ වන්න.");
+        });
+
+        window.onload = autofillId;
+    </script>
+</body>
+</html>
